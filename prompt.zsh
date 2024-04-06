@@ -1,4 +1,5 @@
 PROMPT=""
+PROMPT=$PROMPT"%F{green}%B→%b%f "
 if [ $SHLVL -gt 1 ]; then
     PROMPT=$PROMPT"("$SHLVL") "
 fi
