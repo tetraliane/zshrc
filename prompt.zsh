@@ -1,7 +1,5 @@
 PROMPT=""
-if [ $SHLVL -gt 1 ]; then
-    PROMPT=$PROMPT"("$SHLVL") "
-fi
+PROMPT=$PROMPT'%(1j.[%j] .)'
 if $PROMPT_USERNAME; then
     PROMPT=$PROMPT"%F{red}%B%n%b%f@%F{yellow}%B%m%b%f:"
 fi
