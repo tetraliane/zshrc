@@ -5,7 +5,7 @@ bindkey -e
 setopt CORRECT
 
 # Completion
-autoload -Uz compinit && compinit
+autoload -Uz compinit && compinit -i
 
 # History search
 bindkey '^R' history-incremental-search-backward
