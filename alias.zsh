@@ -3,9 +3,11 @@ alias ga="git add"
 alias gl="git log --oneline"
 alias gu="git stash"
 
-alias la="ls $LS -A"
-alias ll="ls $LS -l"
-alias lla="ls $LS -lA"
+alias ls='ls $LS'
+alias la='ls $LS -A'
+alias ll='ls $LS -l'
+alias lla='ls $LS -lA'
+alias tree="tree -C"
 
 function l() {
     local command=ls
